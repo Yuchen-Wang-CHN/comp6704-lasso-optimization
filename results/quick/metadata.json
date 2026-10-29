@@ -1,0 +1,109 @@
+{
+  "started_utc": "2026-10-29T01:37:30.265982+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "blas": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0"
+  },
+  "config_sha256": "eaf0a4be28eecef6a5d30eb7456ef4fa4b9779a3ed542a470b33cdc555b32753",
+  "config": {
+    "name": "quick",
+    "seeds": [
+      0
+    ],
+    "backend": "gram",
+    "tol": 1e-06,
+    "max_iter": 20000,
+    "check_every": 5,
+    "reference_tol": 1e-12,
+    "rho": 1.0,
+    "abs_tol": 1e-06,
+    "rel_tol": 1e-05,
+    "lambda_ratios": [
+      1.0,
+      0.1,
+      0.01
+    ],
+    "base": {
+      "n": 1000,
+      "d": 50,
+      "sparsity": 0.1,
+      "noise": 1.0,
+      "correlation": 0.9
+    },
+    "sample_sizes": [
+      500,
+      1000
+    ],
+    "feature_sizes": [
+      20,
+      50
+    ],
+    "noise_levels": [
+      0.1,
+      1.0
+    ],
+    "correlations": [
+      0.9
+    ],
+    "sparsities": [
+      0.1
+    ],
+    "rho_values": [
+      0.1,
+      1.0,
+      10.0
+    ]
+  },
+  "experiments": [
+    "convergence",
+    "scalability",
+    "sensitivity",
+    "robustness",
+    "rho"
+  ],
+  "news": true,
+  "thread_limit": 1,
+  "timer": "time.perf_counter",
+  "timing_scope": "common sufficient statistics + method setup + iterations including diagnostics; excludes split/standardization, reference, I/O, prediction",
+  "finished_utc": "2026-10-29T01:37:31.879075+00:00",
+  "wall_sec": 1.6418032001238316,
+  "solver_runs": 62,
+  "converged_runs": 62
+}

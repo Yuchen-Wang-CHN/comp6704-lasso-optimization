@@ -1,0 +1,20 @@
+{
+  "src/comp6704_lasso_optimization.egg-info/dependency_links.txt": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "src/comp6704_lasso_optimization.egg-info/PKG-INFO": "8405f15c89d23840f55609b23fb372db72ee5016359e1444dd90da00916e2a87",
+  "src/comp6704_lasso_optimization.egg-info/requires.txt": "fd04968f7dc4c5fd094d1f6e3c7c4e617efd5eddf4e48a7fbcdb17a78137957f",
+  "src/comp6704_lasso_optimization.egg-info/SOURCES.txt": "c6f0a0c8eb264a1931dd3bd8f144043613029d57e743ed291f93991791811ae7",
+  "src/comp6704_lasso_optimization.egg-info/top_level.txt": "d6f5b1c03648c7af7423f8b6fd977baab4cf2eb5f1eb34c40a5b232e7b381cde",
+  "src/lassoopt/data.py": "2e9a7578db9e6a1f6f8cba041b5d6d965436fcd07d12a35ce90be79f26ecd8dc",
+  "src/lassoopt/preprocessing.py": "561d7e6202da6d13a097b07ed20e7150cbfa32d6949f132dce15ee20ab411428",
+  "src/lassoopt/problem.py": "2465a17e7c4944b7ccd5fb2541e0fdf9739efc228100c0d557803dd32e047a97",
+  "src/lassoopt/solvers.py": "3d5840dd8c3a296a707332bf2541e63debaac5243c28096da04deb4f1416a4c1",
+  "src/lassoopt/__init__.py": "1d09f4f7a0c40b70d1321d85834801301e4bccdf250a902f06f151aeb914df6c",
+  "experiments/analyze.py": "61e5b6dc4d7b8737ed172d1813dda029fb1eeb9c2339af6eedf1f9c61360b25d",
+  "experiments/diagnostics.py": "26c444c98ee93b03438dfad9fa0f129b28f167d2cbbdbc4d3703a3ced65bee64",
+  "experiments/plot.py": "38e3878bc6520012e77c1c5ea234813c3ef4692ffba1b3af8c1fa8e128b05070",
+  "experiments/run.py": "70f2a333e862cb83f715a88585b2bff57216f46d3be77199092b0131305e5126",
+  "experiments/__init__.py": "03b2b182f78685c239217cada773270a57d00e69db318644eb1064b5f23aed4e",
+  "configs/direct.json": "10e29283d5b3fcd541bd9aa8c2c99993fbf6cf451ceca18d23553b2e9b530813",
+  "configs/full.json": "2efb382202cb3000764f7f5d96f01f0fa3686a11137e77d31216d6306ac189da",
+  "configs/quick.json": "eaf0a4be28eecef6a5d30eb7456ef4fa4b9779a3ed542a470b33cdc555b32753"
+}

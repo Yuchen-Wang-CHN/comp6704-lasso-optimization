@@ -1,0 +1,102 @@
+[
+  {
+    "figure": "01_objective_iterations",
+    "claim": "At seed 0, acceleration and splitting produce different objective trajectories under the same LASSO objective.",
+    "panel_roles": [
+      "Controlled synthetic convergence",
+      "Convergence on real data"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Individual seed 0 trajectories; checkpoints every five iterations; no across-seed uncertainty claimed.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/01_objective_iterations.csv"
+  },
+  {
+    "figure": "02_gap_time",
+    "claim": "At seed 0, acceleration and splitting produce different objective trajectories under the same LASSO objective.",
+    "panel_roles": [
+      "Controlled synthetic convergence",
+      "Convergence on real data"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Individual seed 0 trajectories; checkpoints every five iterations; no across-seed uncertainty claimed.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/02_gap_time.csv"
+  },
+  {
+    "figure": "03_scalability",
+    "claim": "Runtime scaling depends on common Gram construction and the method's setup and iteration work.",
+    "panel_roles": [
+      "Effect of sample count at fixed feature count",
+      "Effect of feature count at fixed sample count"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Mean and sample SD over five seeded datasets. Setup included; split/standardization excluded.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/03_scalability.csv"
+  },
+  {
+    "figure": "04_regularization",
+    "claim": "The penalty controls sparsity and validation error; minimizing optimization error alone does not choose the predictive model.",
+    "panel_roles": [
+      "Synthetic sparsity",
+      "Real-data sparsity",
+      "Synthetic prediction tradeoff",
+      "Real-data prediction tradeoff"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Mean and sample SD over five seeds; one solver displayed because converged solvers solve the same objective. Test set unused.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/04_regularization.csv"
+  },
+  {
+    "figure": "05_restart_paired",
+    "claim": "Adaptive restart improves measured runtime relative to FISTA in each of the matched convergence seeds.",
+    "panel_roles": [
+      "Paired synthetic runtime benefit",
+      "Paired real-data runtime benefit"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Raw paired ratios for seeds 0-4. Dashed line is equal runtime; points are not repeated timing measurements.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/05_restart_paired.csv"
+  },
+  {
+    "figure": "06_admm_rho",
+    "claim": "ADMM's convergence depends strongly on rho, and the most efficient tested value can differ by dataset.",
+    "panel_roles": [
+      "Synthetic penalty sensitivity",
+      "Real-data penalty sensitivity"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Mean and sample SD over five seeded datasets/splits. Same dual-gap and residual thresholds at every rho.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/06_admm_rho.csv"
+  },
+  {
+    "figure": "07_admm_residuals",
+    "claim": "The reported ADMM endpoint satisfies both residual checks in addition to the common dual-gap test.",
+    "panel_roles": [
+      "Synthetic feasibility and stationarity diagnostics",
+      "Real-data feasibility and stationarity diagnostics"
+    ],
+    "archetype": "quantitative grid",
+    "backend": "Python / Matplotlib",
+    "statistics": "Individual seed 0 trajectories. Zero initial residuals are omitted on logarithmic axes and preserved in source CSV.",
+    "width_inches": 7.2,
+    "minimum_glyph_pt": 5,
+    "source_data": "source_data/07_admm_residuals.csv"
+  }
+]

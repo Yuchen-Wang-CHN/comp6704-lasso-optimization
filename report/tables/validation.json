@@ -1,0 +1,11 @@
+{
+  "solver_runs": 710,
+  "direct_solver_runs": 40,
+  "all_converged": true,
+  "largest_relative_dual_gap": 9.999265315948792e-07,
+  "largest_objective_difference_to_reference": 3.3310421088117437e-10,
+  "largest_prediction_disagreement": 9.066467929238548e-05,
+  "minimum_reference_gap": -1.7763568394002505e-15,
+  "admm_all_primal_pass": true,
+  "admm_all_dual_pass": true
+}

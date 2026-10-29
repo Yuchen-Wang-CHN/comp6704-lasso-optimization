@@ -1,0 +1,62 @@
+{
+  "name": "direct",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "backend": "direct",
+  "tol": 1E-06,
+  "max_iter": 20000,
+  "check_every": 5,
+  "reference_tol": 1E-12,
+  "rho": 1.0,
+  "abs_tol": 1E-06,
+  "rel_tol": 1E-05,
+  "lambda_ratios": [
+    1.0,
+    0.3,
+    0.1,
+    0.03,
+    0.01,
+    0.003,
+    0.001
+  ],
+  "base": {
+    "n": 5000,
+    "d": 200,
+    "sparsity": 0.1,
+    "noise": 1.0,
+    "correlation": 0.9
+  },
+  "sample_sizes": [
+    1000,
+    5000,
+    20000
+  ],
+  "feature_sizes": [
+    50,
+    200,
+    500
+  ],
+  "noise_levels": [
+    0.1,
+    1.0,
+    3.0
+  ],
+  "correlations": [
+    0.1,
+    0.9
+  ],
+  "sparsities": [
+    0.05,
+    0.1
+  ],
+  "rho_values": [
+    0.1,
+    1.0,
+    10.0
+  ]
+}

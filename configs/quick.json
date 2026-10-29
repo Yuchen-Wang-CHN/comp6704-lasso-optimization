@@ -1,0 +1,20 @@
+{
+  "name": "quick",
+  "seeds": [0],
+  "backend": "gram",
+  "tol": 0.000001,
+  "max_iter": 20000,
+  "check_every": 5,
+  "reference_tol": 1e-12,
+  "rho": 1.0,
+  "abs_tol": 0.000001,
+  "rel_tol": 0.00001,
+  "lambda_ratios": [1.0, 0.1, 0.01],
+  "base": {"n": 1000, "d": 50, "sparsity": 0.1, "noise": 1.0, "correlation": 0.9},
+  "sample_sizes": [500, 1000],
+  "feature_sizes": [20, 50],
+  "noise_levels": [0.1, 1.0],
+  "correlations": [0.9],
+  "sparsities": [0.1],
+  "rho_values": [0.1, 1.0, 10.0]
+}

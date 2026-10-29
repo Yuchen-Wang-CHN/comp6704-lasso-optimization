@@ -1,0 +1,2 @@
+iteration,elapsed_sec,objective,dual,dual_gap,relative_gap,kkt_inf,restarts,reference_gap
+0,0.0037449998781085014,0.43300969678006374,0.43300969678006374,0.0,0.0,0.0,0,0.0
