@@ -5,7 +5,7 @@
   "page_checks": [
     {
       "page": 1,
-      "characters": 2914,
+      "characters": 2861,
       "min_effective_font_pt": 6.973800182342529,
       "clipped_text": [],
       "unresolved_reference": false
@@ -68,12 +68,12 @@
     },
     {
       "page": 10,
-      "characters": 2651,
+      "characters": 2744,
       "min_effective_font_pt": 9.962599754333496,
       "clipped_text": [],
       "unresolved_reference": false
     }
   ],
-  "sha256": "31479ef9df65171465d2fd30c837cbd4471e61edcdbfc3e523eccd1162fcbe42",
+  "sha256": "b5d64652fb28e2c17d8a9bfe0331e64b38f570db654351329bd8ce1b0ffa9c8c",
   "automated_checks_pass": true
 }

@@ -7,9 +7,9 @@
 \newcommand{\soft}{\mathcal{S}}
 \newcommand{\R}{\mathbb{R}}
 \title{ISTA, FISTA, and ADMM for Sparse Linear Regression:\\An Empirical Comparison with Certified Stopping}
-\author{COMP6704 Individual Research Project}
+\author{}
 \makeatletter
-\renewcommand{\@noticestring}{COMP6704 -- Advanced Topics in Optimization. Research report, 29 October 2026.}
+\renewcommand{\@noticestring}{Source code and reproducibility materials: \href{https://github.com/Yuchen-Wang-CHN/comp6704-lasso-optimization}{GitHub repository}.}
 \makeatother
 \begin{document}
 \maketitle
@@ -245,6 +245,7 @@ The prediction experiments complement this computational comparison. Once the so
 The project provides original implementations, independently certified numerical endpoints, and a reproducible comparison of ISTA, FISTA, ADMM, and established adaptive-restart FISTA. Restarted FISTA achieves the lowest mean total runtime in the cached-Gram baseline, while ADMM leads the direct-matrix baseline. Algorithm selection for these dense LASSO problems should therefore consider the linear-algebra backend, setup cost, penalty setting, and required accuracy. Shared validation-based penalty selection connects the converged solutions to prediction and feature-selection outcomes.
 
 \section*{Reproducibility}
+Source code and reproducibility materials are publicly available in the \href{https://github.com/Yuchen-Wang-CHN/comp6704-lasso-optimization}{GitHub repository}.
 The accompanying project contains source code, 36 passing correctness tests, configuration files, downloaded-data provenance, dependency versions, per-run histories, saved coefficients and split indices, figure source data, automated figure QA, and generated tables. Commands for reproducing the main study and direct-backend check are documented in the README. Auxiliary figures include objective versus iterations and ADMM residual trajectories. Paired speedups and timing components can be recalculated from the stored run-level CSV files. Tables are generated directly from stored CSV files.
 
 \begin{thebibliography}{9}
